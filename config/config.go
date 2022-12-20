@@ -16,7 +16,7 @@ func (a *app) initConfig() {
 	viper.AutomaticEnv()
 
 	// default values
-	viper.SetDefault("FullName", "APIN Instance")
+	viper.SetDefault("FullName", "Learn echo")
 	viper.SetDefault("Version", "0.0.1")
 	viper.SetDefault("HttpConf.Host", "127.0.0.1")
 	viper.SetDefault("HttpConf.Port", "8000")
